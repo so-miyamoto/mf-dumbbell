@@ -1,0 +1,17 @@
+
+
+system:
+  numof_dumbbells: [10000]
+  relaxation_time: [0.01]
+  maximum_length: [-1.0]
+  relaxation_modulus: 100.0
+
+integrate:
+  dt: 0.001
+  max_step: 10000
+  velgrad: [0.0,0.0,0.0, 0.0,0.0,0.0, 0.0,0.0,0.0]
+  angvel: 0.0 # cosine( omega * t )
+  duration: 1
+
+
+
